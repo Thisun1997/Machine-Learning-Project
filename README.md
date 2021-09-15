@@ -1,6 +1,6 @@
 # Machine-Learning-Project
 This repository contains the codes submitted to the <b>Pump it Up: Data Mining the Water Table</b> competition.
-<br>Top 6 submissions are available in the repository. A brief discription of the approach followed in the best submission ([XGBoost_sub10](XGBoost_sub10.ipynb)) is explained below.
+<br>The submissions that I was able to get a higher accuracy compared to previouse submissions are available in the repository. A brief discription of the approach followed in the best submission ([XGBoost_sub10](XGBoost_sub10.ipynb)) is explained below.
 
 ## Preprocessing
 1. Removed the duplicates in training data.
@@ -31,3 +31,4 @@ Preprocessed and featuer engineered data was fed into a pipeline. The pieline pe
 ## Proof of submission
 ### Final rank
 ### submissions
+![submissions](https://user-images.githubusercontent.com/47599759/133367787-da2d2fd1-fcb8-46f5-9678-d44d6cd4a42c.PNG)
