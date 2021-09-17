@@ -1,6 +1,16 @@
 # Machine-Learning-Project
 This repository contains the codes submitted to the <b>Pump it Up: Data Mining the Water Table</b> competition.
-<br>The submissions that I was able to get a higher accuracy compared to previouse submissions are available in the repository. A brief discription of the approach followed in the best submission ([XGBoost_sub10](XGBoost_sub10.ipynb)) is explained below.
+<br>The submissions that I was able to get a higher accuracy compared to previouse submissions are available in the repository. The approach followed in each of the submissions except for the best submission are given in the following table.
+
+| Submission | Approch |
+| --- | --- |
+| [Submission 1](XGBoost_sub1.ipynb) | Remove duplicates. Impute missing values by modes. Cluster the longitude and latitudes. Drop some categorical columns based on theil's u correlation. Extract year and month data from date_recorded column. Target encode using leave-one-out encoder.Balance class distribution. Train XGBoostClassifier model. |
+| [Submission 2](XGBoost_sub2.ipynb) | Same preprocessing and feature engineering steps in the final submission (explained below) were done to train and test set seperately (without joining them) and without gps_height imputation and log normalization steps. Drop some categorical columns based on theil's u correlation. Target encode using leave-one-out encoder.Balance class distribution.Train XGBoostClassifier model. |
+| [Submission 4](OneVsRest_XGBoost_sub4.ipynb) | Same steps in submission 2 were followed before training an OneVsRestClassifier with XGBoostClassifier. |
+| [Submission 7](XGBoost_sub7.ipynb) | Same steps in submission 2 were followed for preprocessing without dropping columns, target encoding and class balancing. A pipeline as explained below was used for final stage and training. |
+| [Submission 8](CatBoost_sub8.ipynb) | Same preprocessing and feature engineering steps in the final submission (explained below) were done, but mean was used instead of median for imputing longitude and latitude values. Train a Catboost classifier. |
+
+A brief discription of the approach followed in the best submission ([Submission 10](XGBoost_sub10.ipynb)) is explained below.
 
 ## Preprocessing
 1. Removed the duplicates in training data.
