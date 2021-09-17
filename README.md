@@ -40,5 +40,8 @@ Preprocessed and featuer engineered data was fed into a pipeline. The pieline pe
 
 ## Proof of submission
 ### Final rank
+![rank_20211709_1506](https://user-images.githubusercontent.com/47599759/133763439-ccc43bb2-6438-4c40-9cb3-2b9081ca1ec2.PNG)
+<br>(As of 17/09/2021 03:00 p.m.)
+
 ### submissions
 ![submissions](https://user-images.githubusercontent.com/47599759/133367787-da2d2fd1-fcb8-46f5-9678-d44d6cd4a42c.PNG)
